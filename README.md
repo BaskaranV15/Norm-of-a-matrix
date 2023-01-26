@@ -10,38 +10,45 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 	3. Print the norm of the matrix in two decimal places.
 ## Program:
 ```Python
-# Register No:
-# Developed By:
+# Register No:BASKARAN V
+# Developed By:22008800
+
 # 1-Norm of a Matrix
-
-
-
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,1)
+Norm_of_matrix="{:.2f}".format(ans)
+print(Norm_of_matrix)
 
 # 2-Norm of a Matrix
-
-
-
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,2)
+Norm_of_matrix="{:.2f}".format(ans)
+print(Norm_of_matrix)
 
 # Infinity Norm of a Matrix
-
-
-
-
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,np.inf)
+Norm_of_matrix="{:.2f}".format(ans)
+print(Norm_of_matrix)
 
 ```
 ## Output:
 ### 1-Norm of a Matrix
-<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/118703522/214813897-d45beeb6-3b2b-487f-bd0e-a2b36996bd67.png)
+
 
 ### 2-Norm of a Matrix
-<br>
+![image](https://user-images.githubusercontent.com/118703522/214814182-0ffb4e7d-c762-4b7d-aee1-2879264e4e6e.png)
+
 <br>
 <br>
 
 ### Infinity Norm of a Matrix
-<br>
+![image](https://user-images.githubusercontent.com/118703522/214814332-f8963650-8f2b-4b09-896f-381b3aad5074.png)
+
 <br>
 <br>
 
